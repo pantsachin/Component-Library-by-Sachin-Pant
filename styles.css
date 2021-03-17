@@ -1,4 +1,7 @@
 :root {
+  --primary-color: #fcd34d;
+  --secondary-color: #fca5a5;
+  --tertiary-color: #93c5fd;
 }
 
 /* Avatar Images */
@@ -25,6 +28,7 @@
   width: 50%;
   padding: 0.3rem;
   border: 1px solid transparent;
+  border-radius: 0.5rem;
 }
 
 .alert-success {
@@ -49,4 +53,41 @@
   background-color: #f8d7da;
   border-color: #f5c2c7;
   color: #842029;
+}
+
+/* Badges */
+
+.badge {
+  padding-top: 0.05;
+  padding-bottom: 0.05;
+  text-align: center;
+  border-radius: 0.5rem;
+  width: 6rem;
+}
+
+.badge-primary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.badge-secondary {
+  background-color: #fff;
+  color: #6c757d;
+  border: 1px solid #6c757d;
+}
+
+/* Badges with Notification */
+
+.notif {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 3.5rem;
+  left: 4.3rem;
+}
+
+.avatar-badge-notification {
+  position: relative;
 }
