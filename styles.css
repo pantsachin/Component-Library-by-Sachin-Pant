@@ -2,6 +2,7 @@
   --primary-color: #fcd34d;
   --secondary-color: #fca5a5;
   --tertiary-color: #93c5fd;
+  ---text-color: #fff;
 }
 
 /* Avatar Images */
@@ -90,4 +91,57 @@
 
 .avatar-badge-notification {
   position: relative;
+}
+
+/* Button */
+
+.primary-button {
+  width: 6rem;
+  height: auto;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.05rem;
+  border: 1px solid var(--primary-color);
+}
+
+.secondary-button {
+  height: auto;
+  background-color: #fff;
+  color: var(--primary-color);
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.05rem;
+  width: 6rem;
+  border: 1px solid var(--primary-color);
+}
+
+.floating-button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.plus-button {
+  align-self: center;
+}
+
+/* Cards */
+
+.text-only-cards {
+  width: 15rem;
+  background-color: #e5e7eb;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  align-self: center;
 }
