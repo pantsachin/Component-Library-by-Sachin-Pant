@@ -140,8 +140,21 @@
   height: 20rem;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
   align-self: center;
+}
+
+.vertical-card {
+  width: 15rem;
+  background-color: #e5e7eb;
+  height: 20rem;
+}
+
+.horizontal-card {
+  width: 20rem;
+  background-color: #e5e7eb;
+  height: 15rem;
 }
