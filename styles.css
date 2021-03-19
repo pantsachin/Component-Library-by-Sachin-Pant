@@ -2,7 +2,8 @@
   --primary-color: #fcd34d;
   --secondary-color: #fca5a5;
   --tertiary-color: #93c5fd;
-  ---text-color: #fff;
+  --text-color: #fff;
+  --grey-color: #d1d5db;
 }
 
 /* Avatar Images */
@@ -157,4 +158,29 @@
   width: 20rem;
   background-color: #e5e7eb;
   height: 15rem;
+}
+
+/* Images */
+
+.responsive-image {
+  width: 16rem;
+  height: auto;
+}
+
+.round {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+}
+
+/* Lists */
+
+.list-group {
+  list-style-type: none;
+}
+
+.list-item {
+  width: 40%;
+  border: 1px solid var(--grey-color);
+  padding: 0.5rem;
 }
