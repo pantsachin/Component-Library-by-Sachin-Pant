@@ -8,6 +8,7 @@
   --text-color-grey: #9ca3af;
   --grey-color: #d1d5db;
   --background-grey: #f3f4f6;
+  --heading-text-grey: #374151;
 }
 
 /* Links Styling */
@@ -28,6 +29,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  overflow-y: scroll;
 }
 
 /* Navigation */
@@ -62,6 +64,17 @@ body {
   background-color: var(--background-grey);
   padding-left: 10%;
   padding-right: 5%;
+}
+
+/* Installation Heading */
+
+.installation {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.installation-heading {
+  color: var(--heading-text-grey);
 }
 
 /* Header Image */
@@ -316,8 +329,9 @@ body {
   flex-direction: column;
   justify-content: space-around;
   padding-bottom: 3rem;
-  position: absolute;
+  position: relative;
   bottom: 0;
+  margin-top: 2rem;
 }
 
 .media-icons {
@@ -331,74 +345,3 @@ body {
 }
 
 /* Desktop View */
-
-@media screen and (min-width: 750px) {
-  .navigation {
-    background-color: var(--primary-color);
-    padding: 0.5rem 0.2rem;
-    margin: 0;
-  }
-
-  .nav-links {
-    width: 10rem;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: var(--text-color);
-  }
-
-  .footer-ele {
-    background-color: var(--primary-color);
-    width: 100%;
-    height: 6rem;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-bottom: 0.5rem;
-  }
-
-  .media-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .social {
-    font-size: 2rem;
-    cursor: pointer;
-  }
-
-  .header-image-container {
-    display: flex;
-    justify-content: center;
-  }
-
-  .header-image {
-    width: 30%;
-    height: auto;
-    margin: 2rem;
-  }
-
-  .image-and-description {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .main-heading {
-    text-align: center;
-    color: var(--secondary-color);
-  }
-
-  .ui {
-    color: #374151;
-  }
-
-  .atom-description {
-    background-color: var(--background-grey);
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-}
