@@ -5,7 +5,9 @@
   --secondary-color: #ff073a;
   --tertiary-color: #00022e;
   --text-color: #fff;
+  --text-color-grey: #9ca3af;
   --grey-color: #d1d5db;
+  --background-grey: #f3f4f6;
 }
 
 /* Links Styling */
@@ -34,7 +36,6 @@ body {
   background-color: var(--primary-color);
   padding: 0.5rem 0.2rem;
   margin: 0;
-  width: 100%;
 }
 
 .nav-links {
@@ -46,27 +47,34 @@ body {
   color: var(--text-color);
 }
 
-@media screen and (min-width: 450px) {
-  .navigation {
-    background-color: var(--primary-color);
-    padding: 0.5rem 0.2rem;
-    margin: 0;
-  }
-
-  .nav-links {
-    width: 10rem;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: var(--text-color);
-  }
-}
-
 /* Heading */
 
 .main-heading {
+  text-align: center;
   color: var(--secondary-color);
+}
+
+.ui {
+  color: #374151;
+}
+
+.atom-description {
+  background-color: var(--background-grey);
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+/* Header Image */
+
+.header-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-image {
+  width: 50%;
+  height: auto;
+  margin: 2rem;
 }
 
 /* Avatar Images */
@@ -307,7 +315,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-bottom: 0.5rem;
+  padding-bottom: 3rem;
+  position: absolute;
+  bottom: 0;
 }
 
 .media-icons {
@@ -318,4 +328,77 @@ body {
 .social {
   font-size: 2rem;
   cursor: pointer;
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 750px) {
+  .navigation {
+    background-color: var(--primary-color);
+    padding: 0.5rem 0.2rem;
+    margin: 0;
+  }
+
+  .nav-links {
+    width: 10rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--text-color);
+  }
+
+  .footer-ele {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 6rem;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 0.5rem;
+  }
+
+  .media-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .social {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .header-image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-image {
+    width: 30%;
+    height: auto;
+    margin: 2rem;
+  }
+
+  .image-and-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .main-heading {
+    text-align: center;
+    color: var(--secondary-color);
+  }
+
+  .ui {
+    color: #374151;
+  }
+
+  .atom-description {
+    background-color: var(--background-grey);
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
