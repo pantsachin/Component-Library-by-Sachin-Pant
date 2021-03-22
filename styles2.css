@@ -77,6 +77,15 @@ body {
   color: var(--heading-text-grey);
 }
 
+/* Installation Guide */
+
+.installation-guide {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: var(--background-grey);
+}
+
 /* Header Image */
 
 .header-image-container {
