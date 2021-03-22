@@ -314,11 +314,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .responsive-image {
   width: 16rem;
   height: 20rem;
+  margin-bottom: 1rem;
 }
 
 .round {
