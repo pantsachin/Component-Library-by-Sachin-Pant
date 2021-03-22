@@ -224,6 +224,12 @@ body {
 
 /* Button */
 
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .primary-button {
   width: 6rem;
   height: auto;
@@ -265,6 +271,18 @@ body {
 
 /* Cards */
 
+.card {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .text-only-cards {
   width: 15rem;
   background-color: #e5e7eb;
@@ -291,6 +309,12 @@ body {
 }
 
 /* Images */
+
+.container-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 .responsive-image {
   width: 16rem;
