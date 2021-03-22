@@ -176,6 +176,12 @@ body {
 
 /* Badges */
 
+.badge-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .badge {
   padding-top: 0.05;
   padding-bottom: 0.05;
