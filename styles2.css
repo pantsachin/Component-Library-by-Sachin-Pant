@@ -331,10 +331,21 @@ body {
 
 /* Lists */
 
+.lists-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 /* Stacked Lists */
 
 .list-group {
+  width: 100%;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .list-item {
