@@ -64,6 +64,8 @@ body {
   background-color: var(--background-grey);
   padding-left: 10%;
   padding-right: 5%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* Installation Heading */
@@ -71,6 +73,8 @@ body {
 .installation {
   padding-left: 10%;
   padding-right: 5%;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .installation-heading {
@@ -81,11 +85,17 @@ body {
 
 .installation-guide {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 2rem;
   background-color: var(--background-grey);
+  padding-left: 10%;
+  padding-right: 5%;
 }
 
+.link-iframe {
+  align-self: center;
+}
 /* Header Image */
 
 .header-image-container {
