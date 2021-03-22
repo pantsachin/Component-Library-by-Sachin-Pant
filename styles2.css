@@ -136,6 +136,13 @@ body {
 }
 
 /* Alert Messages */
+
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .alert {
   width: 50%;
   padding: 0.3rem;
@@ -443,6 +450,7 @@ body {
 }
 
 .component-displayer {
+  width: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
