@@ -90,7 +90,7 @@ body {
   padding: 2rem;
   background-color: var(--background-grey);
   padding-left: 10%;
-  padding-right: 5%;
+  padding-right: 10%;
 }
 
 .link-iframe {
@@ -105,6 +105,8 @@ body {
 
 .header-image {
   width: 40%;
+  min-height: 200px;
+  max-height: 400px;
   height: 15rem;
   margin: 2rem;
 }
